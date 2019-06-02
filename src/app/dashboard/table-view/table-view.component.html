@@ -1,0 +1,21 @@
+<div class="container">
+    <h2 class="text-center">Expense tracking | SIGNZY | Table</h2>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Sl No.</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let expenseDetail of expenseDetails; let i = index " title='You have spend Rs {{expenseDetail.amount}} on {{expenseDetail.date | date}} for {{expenseDetail.category}}'>
+          <td>{{i + 1}}</td>
+          <td>{{expenseDetail.date | date}}</td>
+          <td>{{expenseDetail.amount}}</td>
+          <td>{{expenseDetail.category}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
