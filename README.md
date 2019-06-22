@@ -1,5 +1,17 @@
 # Expense Management
 
+Design and implement a web application that enables a person to enter his expenses, and categorize them amongst predefined categories. Once done, he can get a graphical view of his expenses as per categories and as per day/week/month. Following features are to be implemented.
+Option to Add an expense (with details like date, amount etc), and an option to assign a predefined category for the same. (Eg, household, food, taxi, grocery, etc). There should be an option to add another category as well.
+On the main (dashboard) page, use pie charts/ bar charts to show his expenditure in different categories.
+Also, show the expenses in a table form, with columns containing date, amount and category.
+The tables and charts must be clean and interactive. They must contain legends to describe the contents.
+No need to implement backend/db. You may use local files/ browser sessions to save the data.
+
+![Screenshot of Weather Tracking login](/src/assets/images/screen1.png)
+![Screenshot of Weather Tracking search location](/src/assets/images/screen2.png)
+![Screenshot of Weather Tracking](/src/assets/images/screen3.png)
+![Screenshot of Weather Tracking](/src/assets/images/screen4.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
 
 ## Development server
@@ -25,14 +37,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-# Expense tracking
-Design and implement a web application that enables a person to enter his expenses, and categorize them amongst predefined categories. Once done, he can get a graphical view of his expenses as per categories and as per day/week/month. Following features are to be implemented.
-Option to Add an expense (with details like date, amount etc), and an option to assign a predefined category for the same. (Eg, household, food, taxi, grocery, etc). There should be an option to add another category as well.
-On the main (dashboard) page, use pie charts/ bar charts to show his expenditure in different categories.
-Also, show the expenses in a table form, with columns containing date, amount and category.
-The tables and charts must be clean and interactive. They must contain legends to describe the contents.
-No need to implement backend/db. You may use local files/ browser sessions to save the data.
 
 
 ## Setup
